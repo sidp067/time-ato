@@ -38,3 +38,5 @@ This is what our main code is, though this is in Java script we can still read i
 Style.css:
 
 This file is all about the design of the timer. This was very crucial for us as we didn't just want to make anything, we wanted to make a cute timer. So this is the file/ code that mades the font Arial in size two, ensures everything on the webpage is centered, creating all of the buttons with the height of 100vh, ... I will not bore you with all the details of the timer, as you can see it when you try it - we belive on the visual appeal. Just to give a essense of it all this is the file that made us achive our secondary goal of aesthetics.
+
+Our YouTube video: https://youtu.be/I3UuIMFZP9Q 
