@@ -12,13 +12,19 @@ def test_main_route(client):
     assert response.status_code == 200
 
 def test_timer_start(client):
-    # Add test logic for timer start
+    response = client.post('/start_timer', json={'duration': 25}) # Assuming 25 minutes work
+    assert response.status_code == 200
+    assert response.json['status'] == 'timer_started'
     pass
 
 def test_short_break(client):
-    # Add test logic for short break
+    response = client.post('/start_break', json={'duration': 5}) # Assuming 5 minutes break
+    assert response.status_code == 200
+    assert response.json['status'] == 'break_started'
     pass
 
 def test_long_break(client):
-    # Add test logic for long break
+    response = client.post('/start_break', json={'duration': 15}) # Assuming 15 minutes break
+    assert response.status_code == 200
+    assert response.json['status'] == 'break_started'
     pass
